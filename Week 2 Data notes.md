@@ -55,3 +55,5 @@ Author: SHOWUNMI FAVOUR AYOMIDE
 **Different Coordinate Reference Systems:** Both datasets downloaded in WGS 84 geographic coordinates (EPSG:4326). Before running the Kernel Density tool or calculating accurate areas, I must reproject both layers to WGS 84 / UTM zone 31N (EPSG:32631).
 
 **Attribute Mismatches during Spatial Join:** If I join the HOT point data to the LGA polygons to count facilities, I need to ensure the point dataset does not have overlapping or duplicated facility points near the borders of adjoining LGAs.
+
+**Status**: Data note completed, data preparation in week 3.
