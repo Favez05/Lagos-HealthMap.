@@ -1,0 +1,55 @@
+# Data preparation
+
+**Week 3 deliverable.** GeoDev Lab Africa, Cohort 9.
+Author: Favour Showunmi
+
+What I reprojected, what I clipped, what I checked, and what I fixed.
+
+---
+
+## 1. Coordinate system decisions
+**Working CRS:** EPSG:32631 (WGS 84 / UTM zone 31N)
+
+**Why this one:** Because I am generating a kernel density heatmap and measuring distances in Lagos State, I must use a projected coordinate system measured in meters rather than degrees.
+
+| Dataset | CRS as downloaded | CRS after | Operation |
+|---|---|---|---|
+| Lagos_LGAs_Boundary | EPSG:4326 | EPSG:32631 | Reprojected 
+| nga_health_facilities | EPSG:4326 | EPSG:32631 | Reprojected |
+
+---
+
+## 2. Spatial Extent and Clipping
+
+- **Boundary used:** `data/raw/Lagos Health.gpkg`
+- **Features before clipping:** 4657
+- **Features after clipping:** <545>
+The original humanitarian dataset covered all of Nigeria. I used the QGIS Intersection tool to clip the health facility points strictly to the Lagos State administrative boundary.
+
+---
+
+## 3. The five quality checks
+
+| Check | Result | Action taken |
+|---|---|---|
+| Is the CRS what I think it is? | yes | Reprojected both the boundary and facility points to UTM Zone 31N to resolve spatial mismatch.
+| Are there nulls in the fields I need? | yes | Logged missing values (1,326 missing names; 100% missing operators) in my data notes. Proceeding with density analysis based purely on location.
+| Are there duplicate features? | no | Ran the 'Delete duplicate geometries' tool. 0 duplicates were found. |
+| Is the geometry valid? | yes | Ran the 'Check validity' tool. 0 invalid geometries were found.
+| Does coverage span the study area? | Not fully | Discovered that healthcare facility points are not  100% distributed across the Lagos LGAs after clipping.
+
+## 4. Problems encountered and what I did.
+
+- I realised there were some geometry error in the bounndary data that I downloaded, I had to utilise the QuickOSM vector plugin to download another Lagos State boundary. 
+
+- I also e noticed that the symbology of the boundary data had an opacity of 100%, thus, I could not see the point data. I had to reduce the opacity to 6.7%.
+
+## 5. The analysis ready output.
+
+- **File name**: Lagos Health.gpkg
+- **Format**: Geopackage
+- **CRS**: EPSG:32631
+- **Features**: 545
+- **Produced by**: Manually in QGIS
+
+**Status**: Week 3 completed, first spatial analysis in week 4.
