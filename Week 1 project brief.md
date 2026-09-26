@@ -50,8 +50,6 @@ Because OpenStreetMap and Humanitarian Data Exchange (HDX) rely on volunteer map
 Highly developed commercial areas might be mapped perfectly, while informal settlements or rural LGAs might appear as "coldspots" simply because volunteers have not mapped them yet, not necessarily because the facilities do not exist.
 
 **STATUS** Week 1 completed, Data aquisation in Week 2 
-[Week 2 Data notes.md](Week 2 Data notes.md)
-
 
 
 **SHOWUNMI FAVOUR AYOMIDE**
