@@ -27,7 +27,10 @@ To statistically quantify healthcare isolation within the dataset, a proximity t
 * **Statistical Accessibility:** Out of the 603 documented healthcare facilities in the dataset, **543 facilities (90%)** are located within 500 meters of at least one other facility. 
 * **Service Isolation:** Conversely, **60 facilities (10%)** are completely isolated, meaning there are no other documented healthcare options within a 500-meter walking radius of these specific locations. 
 
-## 3. Conclusion
+## 3. Map of Study Area
+![Lagos Healthcare Heatmap](LagosHealth%20Heatmap.jpeg)
+
+## 4. Conclusion
 The spatial analysis confirms a pronounced inequality in healthcare distribution within the mapped regions of Lagos State. While the dense urban core enjoys highly clustered and accessible medical infrastructure, the surveyed coastal and peripheral areas face substantial service gaps. Comprehensive state-wide data collection would be required in the future to assess the full extent of spatial equity across all unmapped LGAs.
 
 **Status**: Week 4 completed. First month completed.
