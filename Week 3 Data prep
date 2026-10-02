@@ -23,7 +23,7 @@ What I reprojected, what I clipped, what I checked, and what I fixed.
 
 - **Boundary used:** `data/raw/Lagos Health.gpkg`
 - **Features before clipping:** 4657
-- **Features after clipping:** <545>
+- **Features after clipping:** <603>
 The original humanitarian dataset covered all of Nigeria. I used the QGIS Intersection tool to clip the health facility points strictly to the Lagos State administrative boundary.
 
 ---
