@@ -17,8 +17,14 @@ This end-to-end methodology bridges crowdsourced spatial data with official gove
 - [x] Week 1: Project brief with source link to every dataset.
 - [x] Week 2: Data downloaded, opened and described.
 - [x] Week 3: Reprojected, clipped and quality checked.
-- [] Week 4: First spatial analysis, checked 4 ways.
+- [x] Week 4: First spatial analysis, checked 4 ways.
 
 ---
+
+2. **MONTH 2**
+- [x] Week 5: Introduction to development using python.
+- [] Week 6: 
+- [] Week 7:
+- [] Week 8:
 
 **SHOWUNMI FAVOUR AYOMIDE**
