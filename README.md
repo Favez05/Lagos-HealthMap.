@@ -23,7 +23,7 @@ This end-to-end methodology bridges crowdsourced spatial data with official gove
 
 2. **MONTH 2**
 - [x] Week 5: Introduction to development using python.
-- [] Week 6: 
+- [x] Week 6: Set up the project with UV and added pandas.
 - [] Week 7:
 - [] Week 8:
 
