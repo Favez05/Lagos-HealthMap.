@@ -24,7 +24,7 @@ This end-to-end methodology bridges crowdsourced spatial data with official gove
 2. **MONTH 2**
 - [x] Week 5: Introduction to development using python.
 - [x] Week 6: Set up the project with UV and added pandas.
-- [] Week 7:
-- [] Week 8:
+- [x] Week 7: Analyse.py reads wards.csv, convert each area and classifies each ward. 
+- [] Week 8: 
 
 **SHOWUNMI FAVOUR AYOMIDE**
