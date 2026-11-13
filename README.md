@@ -26,5 +26,13 @@ This end-to-end methodology bridges crowdsourced spatial data with official gove
 - [x] Week 6: Set up the project with UV and added pandas.
 - [x] Week 7: Analyse.py reads wards.csv, convert each area and classifies each ward. 
 - [x] Week 8: Inspect_data.py summaries the minimum area value, maximum area value, total area value and mean area value of the Lagos state boundary. 
-- [] Week 9:
+- [x] Week 9: I refactored my week 8 data making the code cleaner and re-useable than it was in week 8.
+
+      > Things I learnt from month two include: Analysing and querying a the LagosBoundary data gotten from my Lagos Health Mao data, the difference between the print and return, where one just brings an output and one makes the file reuseble.
+
+3. **MONTH 3**
+- [] Week 10:
+- [] Week 11:
+- [] Week 12:
+- [] Week 13:
 **SHOWUNMI FAVOUR AYOMIDE**
